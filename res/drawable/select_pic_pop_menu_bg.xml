@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="#ffffff" />
+
+    <!-- 描边 -->
+    <stroke
+        android:width="0.5dp"
+        android:color="#ffffff" />
+    <!-- 圆角 -->
+    <corners android:radius="3dp" />
+
+    <padding
+        android:bottom="1dip"
+        android:left="1dip"
+        android:right="1dip"
+        android:top="1dip" />
+
+</shape>

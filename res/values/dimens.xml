@@ -1,7 +1,42 @@
 <resources>
 
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="sp_40">19sp</dimen>
+    <dimen name="sp_48">22sp</dimen>
+    <dimen name="dp98">46dip</dimen>
+    <dimen name="dp80">37dip</dimen>
+    <dimen name="dp54">25dip</dimen>
+    <dimen name="dp88">41dip</dimen>
+    <dimen name="dp38">18dip</dimen>
+    <dimen name="dp76">36dip</dimen>
+    <dimen name="dp94">44dip</dimen>
+    <dimen name="dp104">49dip</dimen>
+    <dimen name="dp26">12dip</dimen>
+    <dimen name="scale42sp">20sp</dimen>
+    <dimen name="scale40dip">19dip</dimen>
+    <dimen name="scale69dip">32dip</dimen>
+    <dimen name="scale83dip">39dip</dimen>
+    <dimen name="scale28dip">13dip</dimen>
+    <dimen name="dp48">23dip</dimen>
+    <dimen name="sp_30">16sp</dimen>
+    <dimen name="scale56dip">26dip</dimen>
+    <dimen name="scale34sp">16sp</dimen>
+
+    <!-- //环信 -->
+    <dimen name="height_top_bar">46dp</dimen>
+    <dimen name="padding_search_bar">5dp</dimen>
+    <dimen name="height_row_weixin">59dp</dimen>
+    <dimen name="size_avatar">35dp</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
+    <dimen name="field_textsize">14sp</dimen>
+    <dimen name="field_margin_right">5dp</dimen>
+    <dimen name="call_button_padding_vertical">10dp</dimen>
+    <dimen name="call_button_padding_left">25dp</dimen>
+    <dimen name="call_button_padding_right">25dp</dimen>
+    <dimen name="sidebar_text_size">10dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
 
 </resources>

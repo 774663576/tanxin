@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_parent"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:paddingBottom="8dip"
+    android:paddingLeft="8dip"
+    android:paddingRight="8dip" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_cancel"
+        android:layout_marginBottom="8dip"
+        android:background="@drawable/select_pic_pop_menu_bg"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_menu_1"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/select_pic_pop_menu_btn_bg_selector"
+            android:text="拍照"
+            android:textColor="#0079ff"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dip"
+            android:background="#d5d5d5" />
+
+        <Button
+            android:id="@+id/btn_menu_2"
+            android:layout_width="match_parent"
+            android:layout_height="48dip"
+            android:background="@drawable/select_pic_pop_menu_btn_bg_selector"
+            android:text="从相册选择"
+            android:textColor="#0079ff"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/select_pic_pop_btn_cancel_selector"
+        android:text="取消"
+        android:textColor="#0079ff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

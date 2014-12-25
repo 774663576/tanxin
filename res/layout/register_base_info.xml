@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="100.0dip"
+        android:layout_height="100.0dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30.0dip"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/bg_reg_header_stroke"
+            android:drawablePadding="15.0dip"
+            android:drawableTop="@drawable/ic_camra"
+            android:gravity="center_horizontal"
+            android:padding="15.0dip"
+            android:text="上传头像"
+            android:textColor="@color/unberlineview_text"
+            android:textSize="14.0sp" />
+
+        <ImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="15.0dip"
+        android:paddingRight="15.0dip"
+        android:paddingTop="30.0dip" >
+
+        <TextView
+            android:id="@+id/txt_birthday"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="选择生日"
+            android:paddingBottom="8.0dip"
+            android:singleLine="true"
+            android:textColor="@color/unberlineview_text"
+            android:textColorHint="@color/text_desc"
+            android:textSize="16.0sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/unberlineview_bottomline" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20.0dip" >
+
+            <View
+                android:id="@+id/rg_layout_genderline"
+                android:layout_width="1.0dip"
+                android:layout_height="20.0dip"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="8.0dip"
+                android:background="@color/unberlineview_dividingline" />
+
+            <RelativeLayout
+                android:id="@+id/reg_layout_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/rg_layout_genderline" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10.0dip"
+                    android:text="男"
+                    android:textColor="@color/unberlineview_text"
+                    android:textSize="16.0sp" />
+
+                <RadioButton
+                    android:id="@+id/rg_radiobutton_male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8.0dip"
+                    android:clickable="false"
+                    android:focusable="false" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/reg_layout_female"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/rg_layout_genderline" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8.0dip"
+                    android:text="女"
+                    android:textColor="@color/unberlineview_text"
+                    android:textSize="16.0sp" />
+
+                <RadioButton
+                    android:id="@+id/rg_radiobutton_female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20.0dip"
+                    android:clickable="false"
+                    android:focusable="false" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:background="@color/unberlineview_bottomline" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15.0dip"
+            android:text="性别设置之后不允许修改，请谨慎操作"
+            android:textColor="@color/reg_desc_text"
+            android:textSize="14.0sp" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp94"
+            android:layout_marginLeft="@dimen/dp76"
+            android:layout_marginRight="@dimen/dp76"
+            android:layout_marginTop="@dimen/dp38"
+            android:background="@drawable/btn_disenable_bg"
+            android:enabled="false"
+            android:text="下一步"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_48" />
+    </LinearLayout>
+
+</LinearLayout>

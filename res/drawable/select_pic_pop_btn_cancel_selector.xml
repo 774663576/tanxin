@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/select_pic_pop_btn_calcel_select_bg" android:state_pressed="true"/>
+    <item android:drawable="@drawable/circle_item_bg"/>
+
+</selector>
